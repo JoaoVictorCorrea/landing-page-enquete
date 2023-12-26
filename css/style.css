@@ -10,7 +10,7 @@ body{
     width: 800px;
 
     box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -33,4 +33,77 @@ body{
 
 .brinde{
     font-weight: bold;
+}
+
+.content{
+    padding: 10px;
+    margin: 0 30px;
+    text-align: center;
+    background-image: linear-gradient(to top, #200D24, #631E6F);
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.content-title{
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+input{
+    width: 65%;
+    height: 10px;
+    padding: 0.9rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0;
+    margin: 20px;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 10px #200D24;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-card{
+    width: 25%;
+    background-image: linear-gradient(to bottom, #2638DB, #342988);
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px 8px;
+    margin-top: 30px;
+}
+
+.card{
+    background-image: linear-gradient(to bottom, #3E5FEF, #71CAFE);
+    padding: 20px 0 10px 0;
+}
+
+.card-title{
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+button{
+    width: 50%;
+    padding: 14px 25px;
+
+    color: #FFFF;
+    background-color: #1D0C20;
+
+    font-size: 1rem;
+
+    border-radius: 4px;
+    border: none;
+
+    cursor: pointer;
 }
