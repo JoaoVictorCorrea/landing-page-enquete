@@ -122,3 +122,49 @@ button:hover{
     padding: 0.6rem;
     font-size: 0.8rem;
 }
+
+@media screen and (max-width: 740px) {
+    html{
+        font-size: 14px;
+    }
+
+    input{
+        width: 85%;
+    }
+
+    .header{
+        padding: 0.6rem 0.6rem;
+    }
+
+    .header-title{
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .header-text{
+        padding: 1.6rem 0.3rem;
+        font-size: 1rem;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .flex-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-card{
+        width: 90%;
+        padding: 0.6rem 0;
+    }
+
+    button{
+        padding: 1.1rem 0.8rem;
+        font-size: 1.5rem;
+    }
+
+    .footer{
+        font-size: 0.9rem;
+    }
+}
