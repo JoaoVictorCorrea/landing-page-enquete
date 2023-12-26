@@ -3,63 +3,14 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container{
-    background-image: linear-gradient(to bottom, #200D24, #631E6F);
-    margin: auto;
-
-    width: 800px;
-
-    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.header{
-    padding: 20px;
-    text-align: center;
-}
-
-.header-title{
-    color: #FECD23;
-    font-size: 30px;
-    font-weight: 600;
-}
-
-.header-text{
-    color: #FFFF;
-    padding: 25px;
-    font-size: 17px;
-}
-
-.brinde{
-    font-weight: bold;
-}
-
-.content{
-    padding: 10px;
-    margin: 0 30px;
-    text-align: center;
-    background-image: linear-gradient(to top, #200D24, #631E6F);
-    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.content-title{
-    color: #FFFF;
-    font-size: 25px;
-    font-weight: 600;
-    padding-bottom: 15px;
-}
-
 input{
-    width: 65%;
-    height: 10px;
+    width: 70%;
+    height: 7px;
     padding: 0.9rem;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     border-radius: 5px;
     border: 0;
-    margin: 20px;
+    margin: 10px;
 }
 
 input:focus{
@@ -67,35 +18,9 @@ input:focus{
     box-shadow: 0 0 10px #200D24;
 }
 
-.flex-container{
-    display: flex;
-    justify-content: space-around;
-}
-
-.content-card{
-    width: 25%;
-    background-image: linear-gradient(to bottom, #2638DB, #342988);
-    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    overflow: hidden;
-    padding: 10px 8px;
-    margin-top: 30px;
-}
-
-.card{
-    background-image: linear-gradient(to bottom, #3E5FEF, #71CAFE);
-    padding: 20px 0 10px 0;
-}
-
-.card-title{
-    color: #FFFF;
-    font-size: 25px;
-    font-weight: 400;
-}
-
 button{
-    width: 50%;
-    padding: 14px 25px;
+    width: 60%;
+    padding: 0.8rem 1.1rem;
 
     color: #FFFF;
     background-color: #1D0C20;
@@ -108,9 +33,92 @@ button{
     cursor: pointer;
 }
 
+button:hover{
+    background-color: #631E6F;
+}
+
+.container{
+    background-image: linear-gradient(to bottom, #200D24, #631E6F);
+    margin: auto;
+
+    width: 700px;
+
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header{
+    padding: 0.6rem 1.2rem;
+    text-align: center;
+}
+
+.header-title{
+    color: #FECD23;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.header-text{
+    color: #FFFF;
+    padding: 1.6rem;
+    font-size: 0.9rem;
+}
+
+.brinde{
+    font-weight: bold;
+}
+
+.content{
+    padding: 1.2rem;
+    margin: 0 1.8rem;
+    text-align: center;
+    background-image: linear-gradient(to top, #200D24, #631E6F);
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.content-title{
+    color: #FFFF;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-bottom: 0.9rem;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-card{
+    width: 25%;
+    background-image: linear-gradient(to bottom, #2638DB, #342988);
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0.6rem 0.5rem;
+    margin-top: 1.8rem;
+}
+
+.card{
+    background-image: linear-gradient(to bottom, #3E5FEF, #71CAFE);
+    padding: 1.25rem 0 0.6rem 0;
+}
+
+.card-title{
+    color: #FFFF;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.card-image{
+    text-align: center;
+}
+
 .footer{
     color: #FFFF;
     text-align: center;
-    padding: 10px;
-    font-size: 13px;
+    padding: 0.6rem;
+    font-size: 0.8rem;
 }
